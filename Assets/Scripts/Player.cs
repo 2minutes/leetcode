@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 [AddComponentMenu("MyGame/Player")]
@@ -82,6 +83,13 @@ public class Player : MonoBehaviour
     {
 
         DirectUpdate();
+        if (Input.GetKey(KeyCode.Z)) 
+        //小人按Z触发，从empty到death状态。写在了DemoAnimator的Animation Layer的状态图里。
+        //TODO
+        //目前只有从Empty到Death一种触发,后续要让小人爬起来，写一个触发Trigger，设置一种Death到Empty的状态转移，设置为该条件下触发，就可以爬起来了
+        {
+            m_animator.SetTrigger("Death");
+        }
     }
 
     void OnTriggerEnter(Collider other)
