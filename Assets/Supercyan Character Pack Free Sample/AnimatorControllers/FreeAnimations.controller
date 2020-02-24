@@ -534,7 +534,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Pickup
-  m_Speed: 1
+  m_Speed: 4
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 110184736}
@@ -549,7 +549,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: b3662f281ce0fd5449670a910110afc4, type: 3}
   m_Tag: 
-  m_SpeedParameter: 
+  m_SpeedParameter: MoveSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -564,23 +564,23 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 110271614}
-    m_Position: {x: 204, y: 48, z: 0}
+    m_Position: {x: 200, y: 50, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 110229514}
-    m_Position: {x: 432, y: -72, z: 0}
+    m_Position: {x: 430, y: -70, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 110244722}
-    m_Position: {x: 204, y: -192, z: 0}
+    m_Position: {x: 200, y: -190, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 110235190}
-    m_Position: {x: -48, y: -84, z: 0}
+    m_Position: {x: -50, y: -80, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 36, y: -276, z: 0}
-  m_EntryPosition: {x: 228, y: -276, z: 0}
+  m_EntryPosition: {x: 230, y: -280, z: 0}
   m_ExitPosition: {x: 228, y: -324, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 110244722}
@@ -598,10 +598,10 @@ AnimatorStateMachine:
     m_Position: {x: 12, y: -312, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 110298324}
-    m_Position: {x: -96, y: -120, z: 0}
+    m_Position: {x: -100, y: -120, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 110277918}
-    m_Position: {x: 132, y: -120, z: 0}
+    m_Position: {x: 130, y: -120, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: 110198322}

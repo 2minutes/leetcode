@@ -3,7 +3,7 @@ using System.Collections;
 
 public class DemoFree : MonoBehaviour {
 
-    private readonly string[] m_animations = { "Pickup","Wave" };
+    private readonly string[] m_animations = { "Pickup","Wave","New"};
     private Animator[] m_animators;
     [SerializeField] private CameraLogicFree m_cameraLogic;
 
